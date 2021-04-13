@@ -205,10 +205,16 @@
         .last {
             text-align: center;
             background-color: #E7332B;
+            margin: 0;
+            color: white;
+            padding: 10px;
         }
         
         @media(max-width: 600px) {
             .group {
                 width: 100%;
+            }
+            .footer-container {
+                display: block;
             }
         }
